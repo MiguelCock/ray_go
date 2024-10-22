@@ -1,10 +1,11 @@
 module github.com/MiguelCock/ray_go
 
-go 1.22.2
+go 1.23.2
+
+require github.com/gen2brain/raylib-go/raylib v0.0.0-20241019150900-b7833eeae8d0
 
 require (
-	github.com/ebitengine/purego v0.7.1 // indirect
-	github.com/gen2brain/raylib-go/raylib v0.0.0-20240916050633-6bc3d79c96ad // indirect
-	golang.org/x/exp v0.0.0-20240909161429-701f63a606c0 // indirect
-	golang.org/x/sys v0.25.0 // indirect
+	github.com/ebitengine/purego v0.8.1 // indirect
+	golang.org/x/exp v0.0.0-20241009180824-f66d83c29e7c // indirect
+	golang.org/x/sys v0.26.0 // indirect
 )
